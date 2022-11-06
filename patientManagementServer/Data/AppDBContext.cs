@@ -22,7 +22,7 @@ namespace patientManagementServer.Data
                     Id = i,
                     firstname = "firstname" + i.ToString(),
                     lastname = "lastname" + i.ToString(),
-                    dob = DateOnly.Parse("2000-10-20"),
+                    dob = 20000000+i*20000+i*100+i*3,
                     patientsex = (i % 2 == 0) ? "Male" : "Female",
                     email = "mail" + i.ToString() + "@mail.mail",
                     town = "town" + i.ToString()

@@ -14,7 +14,7 @@ namespace patientManagementServer.Data
         [MaxLength(20)]
         public string lastname { get; set; } = string.Empty;
 
-        public DateOnly dob { get; set; }
+        public int dob { get; set; }
 
         [MaxLength(20)]
         public string patientsex { get; set; } = string.Empty;
